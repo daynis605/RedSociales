@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:theme="@style/Theme.RedSociales">
+        <activity
+            android:name=".ui.view.AuthActivity"
+            android:theme="@style/Theme.RedSociales"
+            android:label=""
+            android:exported="false" />
+    </application>
+
+</manifest>
